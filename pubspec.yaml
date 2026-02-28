@@ -1,0 +1,13 @@
+name: safe_json
+version: 1.2.0
+description: A drop-in replacement for jsonDecode that converts all JSON integers to doubles, preventing the common TypeError in Flutter apps.
+repository: https://github.com/fabricio-costa/safe_json
+topics:
+  - json
+  - serialization
+  - type-safety
+environment:
+  sdk: ^3.0.0
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^4.0.0
