@@ -1,4 +1,4 @@
-import 'package:safe_json/safe_json.dart';
+import 'package:safe_json_decode/safe_json_decode.dart';
 
 void main() {
   // Simulating an API response where price comes as integer
