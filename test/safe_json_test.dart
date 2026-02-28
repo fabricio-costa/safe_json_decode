@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:safe_json/safe_json.dart';
+import 'package:safe_json_decode/safe_json_decode.dart';
 
 void main() {
   group('safeJsonDecode', () {
