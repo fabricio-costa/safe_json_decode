@@ -1,6 +1,6 @@
-# safe_json
+# safe_json_decode
 
-[![pub package](https://img.shields.io/pub/v/safe_json.svg)](https://pub.dev/packages/safe_json)
+[![pub package](https://img.shields.io/pub/v/safe_json_decode.svg)](https://pub.dev/packages/safe_json_decode)
 
 A drop-in replacement for `jsonDecode` that converts all JSON integers to doubles,
 preventing `TypeError: type 'int' is not a subtype of type 'double'`.
@@ -30,7 +30,7 @@ This is especially common with REST APIs where the same field may return `29` or
 ## Usage
 
 ```dart
-import 'package:safe_json/safe_json.dart';
+import 'package:safe_json_decode/safe_json_decode.dart';
 
 // Instead of: jsonDecode(response.body)
 final data = safeJsonDecode(response.body);
